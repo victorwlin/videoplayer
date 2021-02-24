@@ -12,13 +12,14 @@ class App extends React.Component {
     }
 
     onTermSubmit = async (term) => {
-        const KEY = "AIzaSyDhp2EoJqlEpHfYBy0K7C9BBbPvn5jiAT0";
+        const KEY = "AIzaSyD6dy2WTc4vnv7_ufy-2CIXClInFWNjt14";
 
         const response = await youtube.get("/search", {
             params: {
                 q: term,
                 part: "snippet",
                 maxResults: 5,
+                type: "video",
                 key: KEY
             }
         });
