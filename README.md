@@ -1,5 +1,3 @@
 Live: https://victorwlin.github.io/videoplayer/
 
-Using the YouTube API, this app allows the user to search for and play videos.
-
-Libraries: React
+Using the YouTube API, this app allows the user to search for and play videos. It was built using React.
